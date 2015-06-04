@@ -14,20 +14,25 @@
 /* portrait w/ screen size <= 326px */
 @media screen and (max-width: 326px) {
 
-.projects_inner {
-  padding: 20px;
-  border-bottom: 1px solid #cccccc;
-}
-
-.projects_inner:last-of-type {
-  border-bottom: none;
-}
-
-#author_web_design, #bcard_co, #hi6h_app, #author_web_design:hover, #bcard_co:hover, #hi6h_app:hover {
-  background-image: none;
-  background-color: #333333;
+  .projects_inner {
+    padding: 20px;
+    border-bottom: 1px solid #cccccc;
   }
-}
+
+  .projects_inner:last-of-type {
+    border-bottom: none;
+  }
+
+  #author_web_design, 
+  #bcard_co, 
+  #hi6h_app, 
+  #author_web_design:hover, 
+  #bcard_co:hover, 
+  #hi6h_app:hover {
+    background-image: none;
+    background-color: #333333;
+    }
+  }
 
 
 /* portrait w/ screen size >= 662px */

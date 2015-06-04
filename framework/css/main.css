@@ -1,5 +1,7 @@
 
-body, html, main {
+body,
+html,
+main {
   margin: 0;
   padding: 0;
   width: 100%;
@@ -7,17 +9,26 @@ body, html, main {
 }
 
 body {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font: 'Helvetica Neue', Helvetica, Arial, sans-serif 14px;
   color: #424242;
 }
 
-h1, h2, h3, h4, h5, p {
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+p {
   margin: 0;
   padding: 0;
 }
 
-header, nav, footer, section, article, div {
+header, 
+nav, 
+footer, 
+section, 
+article, 
+div {
   box-sizing: border-box;
 }
 
@@ -54,16 +65,18 @@ ul {
 }
 
 .header_inner h1 {
-  color: #222222;
+  color: #222;
   font-size: 45px;
   font-weight: 200;
 }
+
 
 /*
  *
  * Barker
  *
  */
+
 .barker {
   width: 100%
 }
@@ -76,13 +89,13 @@ ul {
 
 .barker_inner h2 {
   margin-bottom: 10px;
-  color: #222222;
+  color: #222;
   font-size: 30px;
   font-weight: 500;
 }
 
 .barker_inner p {
-  color: #222222;
+  color: #222;
   font-size: 18px;
   font-weight: 200;
   letter-spacing: 1px;
@@ -90,6 +103,7 @@ ul {
 
 #designer {
 }
+
 
 /*
  *
@@ -112,13 +126,14 @@ ul {
   margin-bottom: 10px;
   color: #fff;
   font-weight: 100;
-  text-shadow: 2px 2px 8px #222222;
+  text-shadow: 2px 2px 8px #222;
+  -webkit-text-shadow: 2px 2px 8px #222; /* For WebKit*/
+  -moz-text-shadow: 2px 2px 8px #222;    /* Mozilla*/
 }
 
 .projects_inner a {
   color: #fff;
   text-decoration: none;
-  text-shadow: 2px 2px 8px #222222;
   display:block;
   position: absolute;
   top: 0;
@@ -127,11 +142,14 @@ ul {
   height: 100%;
   text-indent: -9999px;
   overflow: hidden;
+  text-shadow: 2px 2px 8px #222;
+  -webkit-text-shadow: 2px 2px 8px #222; /* For WebKit*/
+  -moz-text-shadow: 2px 2px 8px #222;    /* Mozilla*/
 }
 
 .projects_inner p {
   color: #fff;
-  text-shadow: 2px 2px 8px #222222;
+  text-shadow: 2px 2px 8px #222;
   font-weight: 100;
   letter-spacing: 1px;
 }
@@ -142,74 +160,74 @@ ul {
   margin: 15px auto;
   border: 0;
   background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
-  box-shadow:  0px 0px  11px #222222;
-  -webkit-box-shadow: 0px 0px  11px #222222;
-  -moz-box-shadow: 0px 0px  11px #222222;
+  box-shadow:  0px 0px  11px #222;
+  -webkit-box-shadow: 0px 0px  11px #222; /* For WebKit*/
+  -moz-box-shadow: 0px 0px  11px #222;    /* Mozilla*/
 }
 
 .projects_inner:hover hr {
   max-width: 180px;
   color: #fff;
   transition: max-width .3s;
-  -moz-transition: background-color .3s ease; 
-  -o-transition: background-color .3s ease; 
-  -webkit-transition: background-color .3s ease-in-out;
+  -webkit-transition: max-width .3s ease-in-out; /* For WebKit*/
+  -moz-transition: max-width .3s ease;           /* Mozilla*/
+  -o-transition: max-width .3s ease;             /* Opera*/
 }
 
 #author_web_design {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/books.jpg) no-repeat center center;
+  background-size: 100%;
   -webkit-background-size: 100%; /* For WebKit*/
   -moz-background-size: 100%;    /* Mozilla*/
   -o-background-size: 100%;      /* Opera*/
-  background-size: 100%;
 }
 
 #bcard_co {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/business.jpg) no-repeat center center;
+  background-size: 100%;
   -webkit-background-size: 100%; /* For WebKit*/
   -moz-background-size: 100%;    /* Mozilla*/
-  -o-background-size: 100%;      /* Opera*/
-  background-size: 100%;  
+  -o-background-size: 100%;      /* Opera*/ 
 }
 
 #hi6h_app {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/productivity.jpg) no-repeat center center;
+  background-size: 100%;
   -webkit-background-size: 100%; /* For WebKit*/
   -moz-background-size: 100%;    /* Mozilla*/
   -o-background-size: 100%;      /* Opera*/
-  background-size: 100%;  
 }
 
 #author_web_design:hover {
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/books.jpg) no-repeat center center;
+  background-size: 100%;
   -webkit-background-size: 100%; /* For WebKit*/
   -moz-background-size: 100%;    /* Mozilla*/
   -o-background-size: 100%;      /* Opera*/
-  background-size: 100%;
 }
 
 #bcard_co:hover {
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/business.jpg) no-repeat center center;
+  background-size: 100%;
   -webkit-background-size: 100%; /* For WebKit*/
   -moz-background-size: 100%;    /* Mozilla*/
   -o-background-size: 100%;      /* Opera*/
-  background-size: 100%;
 }
 
 #hi6h_app:hover {
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../images/productivity.jpg) no-repeat center center;
+  background-size: 100%;
   -webkit-background-size: 100%; /* For WebKit*/
   -moz-background-size: 100%;    /* Mozilla*/
   -o-background-size: 100%;      /* Opera*/
-  background-size: 100%;
 }
+
 
 /*
  *
  * Footer Styles
  *
  */
-
 
 .footer {
   width: 100%;
@@ -236,7 +254,7 @@ ul {
 
 .fa {
   color:#fff;
-  box-shadow: 2px 2px 8px #222222;
-  -webkit-box-shadow: 2px 2px 8px #222222;
-  -moz-box-shadow: 2px 2px 8px #222222;
+  box-shadow: 2px 2px 8px #222;
+  -webkit-box-shadow: 2px 2px 8px #222; /* For WebKit*/
+  -moz-box-shadow: 2px 2px 8px #222;    /* Mozilla*/
 }
