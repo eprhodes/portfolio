@@ -9,25 +9,25 @@ main {
 }
 
 body {
-  font: 'Helvetica Neue', Helvetica, Arial, sans-serif 14px;
+  font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #424242;
 }
 
-h1, 
-h2, 
-h3, 
-h4, 
-h5, 
+h1,
+h2,
+h3,
+h4,
+h5,
 p {
   margin: 0;
   padding: 0;
 }
 
-header, 
-nav, 
-footer, 
-section, 
-article, 
+header,
+nav,
+footer,
+section,
+article,
 div {
   box-sizing: border-box;
 }
@@ -187,7 +187,7 @@ ul {
   background-size: 100%;
   -webkit-background-size: 100%; /* For WebKit*/
   -moz-background-size: 100%;    /* Mozilla*/
-  -o-background-size: 100%;      /* Opera*/ 
+  -o-background-size: 100%;      /* Opera*/
 }
 
 #hi6h_app {
