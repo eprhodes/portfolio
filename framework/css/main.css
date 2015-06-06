@@ -9,7 +9,7 @@ main {
 }
 
 body {
-  font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #424242;
 }
 
@@ -45,7 +45,6 @@ ul {
   padding: 0;
 }
 
-
 /*
  *
  * Header
@@ -69,7 +68,6 @@ ul {
   font-size: 45px;
   font-weight: 200;
 }
-
 
 /*
  *
@@ -101,10 +99,6 @@ ul {
   letter-spacing: 1px;
 }
 
-#designer {
-}
-
-
 /*
  *
  * Projects
@@ -134,7 +128,7 @@ ul {
 .projects_inner a {
   color: #fff;
   text-decoration: none;
-  display:block;
+  display: block;
   position: absolute;
   top: 0;
   left: 0;
@@ -222,7 +216,6 @@ ul {
   -o-background-size: 100%;      /* Opera*/
 }
 
-
 /*
  *
  * Footer Styles
@@ -240,7 +233,6 @@ ul {
   margin: 0 auto;
   padding: 20px;
 }
-
 
 /*
  *
